@@ -11,7 +11,8 @@
       "sw": "Anza",
       "zh": "主页",
       "el": "Αρχική",
-      "hu": "Kezdőlap"
+      "hu": "Kezdőlap",
+      "hi": "Home"
     },
     {
       "_": "hedy",
@@ -24,7 +25,8 @@
       "accent_color": "blue-200",
       "sw": "Hedy",
       "zh": "海迪",
-      "el": "Hedy"
+      "el": "Hedy",
+      "hi": "Hedy"
     },
     {
       "_": "learn-more",
