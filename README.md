@@ -15,21 +15,21 @@ If you want to see what the core team will work on next, you can follow [our Pro
 
 A great and simple way to help out Hedy is to help us translate Hedy [into more languages](TRANSLATING.md)! You do not need programming experience or knowledge to translate Hedy.
 
-Note that at this point we only support left to right languages, but we are working on right to left too.
+Note that at this point we only support left-to-right languages, but we are working on right-to-left too.
 
 I have an idea for what you should build!
 ------------
 
 Great! We have two ways of monitoring ideas. 
 
-If is is a small fix, it is best to [make an issue](https://github.com/Felienne/hedy/issues/new/choose). Issues are meant for things we know that we want to work on, such as:
+If it is a small fix, it is best to [make an issue](https://github.com/Felienne/hedy/issues/new/choose). Issues are meant for things we know that we want to work on, such as:
 * Error messages that need to be improved
 * Crashes or bugs
 
 If it is a new idea, [start a discussion](https://github.com/Felienne/hedy/discussions/categories/ideas). Discussions are a place to chat about stuff we do not know if we want to work on yet, or we are not sure how to do, such as:
 
 * New keywords
-* new meanings for existing keywords
+* New meanings for existing keywords
 * Experimental improvements to the parser/transpiler
 
 
