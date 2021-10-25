@@ -26,7 +26,7 @@
             ask Wat is dyn favorite kleur?
             echo Dus dyn favorite kleur is...
     -   name: "foarút" 
-        explanation: "Een line tekenje mei `forward`."
+        explanation: "In line tekenje mei `forward`."
         example: "Foarbyld: forward 100"
         demo_code: "forward 100"
     -   name: "draaie"
@@ -281,31 +281,31 @@
                 forward 50
 8:
     start_code: |-
-        dieren is hond, kat, papegaai
-        for dier in dieren
-          print dier ' is een leuk dier!'
+        bisten is hûn, kat, papegaai
+        for bist in bisten
+          print bist ' is een leuk bist!'
     intro_text: |
         In dit level leren we een nieuwe code, de code `for`. Met `for` kun je alle dingen in een lijstje gebruiken.
         `for` mag meerdere regels gebruiken, net zoals de `repeat` and `if`, dus alle regels eronder moeten met spaties beginnen.
 
         ## Voorbeeld Hedy code
         ```
-        dieren is hond, kat, papegaai
-        for dier in dieren
-          print dier ' is een leuk dier!'
+        bisten is hûn, kat, papegaai
+        for bist in bisten
+          print bist ' is een leuk bist!'
         ```
     commands:
     -   name: "print"
-        explanation: "Iets letterlijk printen met `print`."
-        example: "Bijvoorbeeld: print '5 keer 5 is ' 5 * 5"
+        explanation: "Eat wurdlik printen mei `print`."
+        example: "Bygelyks: print '5 kear 5 is ' 5 * 5"
         demo_code: "print '5 keer 5 is ' 5 * 5"
-    -   name: "for met een lijst"
-        explanation: "Alle dingen in een lijstje printen "
-        example: "Bijvoorbeeld: for dier in dieren"
+    -   name: "for mei in list"
+        explanation: "Alle dingen yn in list printen "
+        example: "Bygelyks: for bist in bisten"
         demo_code: |-
-            dieren is hond, kat, papegaai
-            for dier in dieren
-              print dier
+            bisten is hûn, kat, papegaai
+            for bist in bisten
+              print bist
 9:
     start_code: |-
         for i in range 1 to 10
@@ -392,7 +392,7 @@
     intro_text: "We sille no rûne heakjes tafoegje en `ask` oanpasse! `ask` neame we no input! By `print`, `input` en `for` sille we no heakjes sette!"
     commands:
     -   name: "Print"
-        explanation: "We gaan nu haakjes om print heen zetten!"
+        explanation: "We sette no haakjes om print hinne!"
         example: "Foarbyld: print('Oant moarn')"
         demo_code: "print('Oant moarn')"
     -   name: "`ask` wurdt `input`!"
@@ -400,7 +400,7 @@
         example: "Foarbyld: namme is input('Wat is dyn namme?')"
         demo_code: |-
             namme is input('Wat is dyn namme?')
-            print('Dus jij heet ' namme)
+            print('Dus do bist ' namme)
     -   name: "`For` mei heakjes"
         explanation: "We sille no ynstee fan `for i in range 1 to 10:`, heakjes sette om de getallen: `for i in range(0, 10):`"
         example: "Foarbyld: for i in range(0, 10):"
@@ -485,7 +485,7 @@
             else:
                 print('Minimaal 1 antwurd is fout!')
     -   name: "Or"
-        explanation: "`Or` is dus of. Minimaal 1 fan de 2 tusken de `or` moat goed wêze. beide goed mei ek."
+        explanation: "`Or` is dus of. It iene of it oare moat goed wêze; beide goed mei ek."
         example: "if 3+2 is 5 or 2+2 is 4"
         demo_code: |-
             antwurd1 is input('Hoefolle is 3+2?')
@@ -493,10 +493,10 @@
             if antwurd1 is 5 or antwurd2 is 4:
                 print('Je hebt minimaal 1 antwurd goed!')
             else:
-                print('Beide antwurden binne fout!')
+                print('Beide antwurden binne ferkeard!')
 16:
     start_code: |-
-        # Dit is een programma dat in tal sommen freegjen giet
+        # Dit is in programma dat in tal sommen freget
         
         for i in range(1, 10):
             # We sille de tafel fan 5 freegje
@@ -569,7 +569,7 @@
                     goed_antwurd is True
                     print('Dat wie it goede antwurd')
     -   name: "Smaller while"
-        explanation: "We kinne in `while`-lus ek brûke mei `<` en `>`. Tink der om datst it getal wol grutter makkest. Oars komst de lus net út."
+        explanation: "We kinne in `while`-lus ek brûke mei `<` en `>`. Tink der om datst it getal wol grutter makkest. Oars bliuwst yn 'e lus stykjen."
         example: "Foarbyld: while tel < 3"
         demo_code: |-
             tel is 1
@@ -577,16 +577,16 @@
             while tel < 3:
                 print('Dit is de ' tel 'e kear')
                 tel is tel + 1
-            print('We zijn klaar')
+            print('We bin klear')
 19:
     start_code: |-
         list is ['earste', 'twadde', 'tredde']
         twaddewearde is list[2]
         print(twaddewearde)
-    intro_text: "Bij een list kan je een specifieke waarde pakken. Stel je wilt It twade ding in de list hebben, dan typ je `list[2]`."
+    intro_text: "Ut in list kinst ien spesifike wearde pakke. Ast bygelyks it twadde ding út 'e list ha wolst, dan typst `list[2]`."
     commands:
-    -   name: "Optellen"
-        explanation: "We kinne bygelyks alles bij inoar optelle"
+    -   name: "Optelle"
+        explanation: "We kinne bygelyks alles by inoar optelle"
         example: "list[1]"
         demo_code: |-
             list is ['1', '2', '3']
@@ -689,4 +689,4 @@
         demo_code: |-
             leeftyd = input('Ik bin 11 jier, hoe âld bisto?')
             if leeftyd >= 13:
-                print('Dan bistâlder as ik!')
+                print('Dan bist âlder as ik!')
